@@ -20,6 +20,11 @@ namespace ByteBank
             carlos.Salario = 2000;
             gerenciador.Registrar(carlos);
 
+            /* Por termos herdado as características do Funcionário na classe Diretor, 
+             * podemos criar um Diretor até mesmo dessa forma:
+             * Funcionario pedro = new Diretor();
+            */
+
             Diretor rodolfo = new Diretor();
 
             rodolfo.Nome = "Rodolfo";
