@@ -27,7 +27,7 @@ namespace ByteBank.Funcionarios
             Salario = salario;
             CPF = cpf;
         }
-
+        
         /* Tornamos tanto a classe AumentarSalario e GetBonificacao abstratas
          * para "obrigar" o desenvolvedor a sobrescrever as classes
          * com características específicas */
