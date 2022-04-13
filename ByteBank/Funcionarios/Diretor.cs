@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ByteBank.Sistemas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,7 @@ namespace ByteBank.Funcionarios
 {
     // Os : foi utilizado para que o Diretor herde as características e comportamento do Funcionario
     // Por isso não precisamos repetir as declarações de Nome, CPF e Salário
-    public class Diretor : Funcionario
+    public class Diretor : Autenticavel
     {
         public Diretor(string cpf) : base(5000, cpf) //Foi estipulado o salário de 5000 para todos os diretos como regra de negócio
         {
